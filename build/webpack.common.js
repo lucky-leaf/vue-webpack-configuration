@@ -26,17 +26,20 @@ module.exports = {
         test: /\.(js|vue)$/,
         loader: 'eslint-loader',
         exclude: /node_modules/
-      },{
+      },
+      {
         test: /\.js?$/,
         use: ['babel-loader'],
         exclude: (file) => (
           /node_modules/.test(file) &&
           !/\.vue\.js/.test(file)
         )
-      }, {
+      },
+      {
         test: /\.vue$/,
         loader: 'vue-loader'
-      }, {
+      },
+      {
         test: /\.css$/,
         use: [
           'vue-style-loader',
