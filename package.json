@@ -44,6 +44,6 @@
     "build": "webpack --config ./build/webpack.prod.js",
     "dev": "webpack-dev-server --config ./build/webpack.dev.js"
   },
-  "author": "lucky-leaf",
+  "author": "shunkie",
   "license": "MIT"
 }
