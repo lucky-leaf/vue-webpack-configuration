@@ -59,7 +59,7 @@ module.exports = {
       root: path.resolve(__dirname, '..')
     }),
     new HtmlWebpackPlugin({
-      template: './src/template.html'
+      template: path.resolve(__dirname, '../src/template.html')
     }),
     new VueLoaderPlugin()
   ],
