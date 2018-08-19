@@ -2,7 +2,10 @@
   "name": "vue-webpack-configuration",
   "version": "0.0.1",
   "description": "A webpack configuration for Vue.js",
-  "repository": "empty",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shunkie/vue-webpack-configuration.git"
+  },
   "dependencies": {
     "vue": "^2.5.16"
   },
